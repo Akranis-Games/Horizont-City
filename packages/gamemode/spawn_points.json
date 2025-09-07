@@ -1,0 +1,174 @@
+{
+  "SpawnPoints": [
+    {
+      "id": "spawn_1",
+      "name": "Hauptspawn",
+      "x": -425.517,
+      "y": 1123.620,
+      "z": 325.8544,
+      "heading": 0.0,
+      "description": "Hauptspawn-Punkt für neue Spieler"
+    },
+    {
+      "id": "spawn_2",
+      "name": "Krankenhaus",
+      "x": 1839.6,
+      "y": 3672.9,
+      "z": 34.3,
+      "heading": 210.0,
+      "description": "Spawn-Punkt am Krankenhaus"
+    },
+    {
+      "id": "spawn_3",
+      "name": "Polizeiwache",
+      "x": 425.1,
+      "y": -979.5,
+      "z": 30.7,
+      "heading": 90.0,
+      "description": "Spawn-Punkt an der Polizeiwache"
+    },
+    {
+      "id": "spawn_4",
+      "name": "Flughafen",
+      "x": -1037.0,
+      "y": -2737.0,
+      "z": 20.2,
+      "heading": 240.0,
+      "description": "Spawn-Punkt am Flughafen"
+    },
+    {
+      "id": "spawn_5",
+      "name": "Strand",
+      "x": -1202.0,
+      "y": -1564.0,
+      "z": 4.4,
+      "heading": 120.0,
+      "description": "Spawn-Punkt am Strand"
+    },
+    {
+      "id": "spawn_6",
+      "name": "Berg",
+      "x": 2441.0,
+      "y": 4968.0,
+      "z": 42.0,
+      "heading": 45.0,
+      "description": "Spawn-Punkt im Gebirge"
+    },
+    {
+      "id": "spawn_7",
+      "name": "Wüste",
+      "x": 1907.0,
+      "y": 3708.0,
+      "z": 32.8,
+      "heading": 200.0,
+      "description": "Spawn-Punkt in der Wüste"
+    },
+    {
+      "id": "spawn_8",
+      "name": "Wald",
+      "x": -1612.0,
+      "y": 5262.0,
+      "z": 3.0,
+      "heading": 300.0,
+      "description": "Spawn-Punkt im Wald"
+    },
+    {
+      "id": "spawn_9",
+      "name": "Stadtzentrum",
+      "x": 215.0,
+      "y": -810.0,
+      "z": 30.7,
+      "heading": 160.0,
+      "description": "Spawn-Punkt im Stadtzentrum"
+    },
+    {
+      "id": "spawn_10",
+      "name": "Hafen",
+      "x": 1208.0,
+      "y": -3114.0,
+      "z": 5.9,
+      "heading": 0.0,
+      "description": "Spawn-Punkt am Hafen"
+    }
+  ],
+  "VehicleSpawns": [
+    {
+      "id": "vehicle_spawn_1",
+      "name": "Hauptgarage",
+      "x": -425.517,
+      "y": 1123.620,
+      "z": 325.8544,
+      "heading": 0.0,
+      "description": "Hauptgarage für Fahrzeuge"
+    },
+    {
+      "id": "vehicle_spawn_2",
+      "name": "Krankenhaus Garage",
+      "x": 1839.6,
+      "y": 3672.9,
+      "z": 34.3,
+      "heading": 210.0,
+      "description": "Garage am Krankenhaus"
+    },
+    {
+      "id": "vehicle_spawn_3",
+      "name": "Polizei Garage",
+      "x": 425.1,
+      "y": -979.5,
+      "z": 30.7,
+      "heading": 90.0,
+      "description": "Garage an der Polizeiwache"
+    },
+    {
+      "id": "vehicle_spawn_4",
+      "name": "Flughafen Garage",
+      "x": -1037.0,
+      "y": -2737.0,
+      "z": 20.2,
+      "heading": 240.0,
+      "description": "Garage am Flughafen"
+    }
+  ],
+  "JobSpawns": [
+    {
+      "id": "job_spawn_police",
+      "name": "Polizei Spawn",
+      "x": 425.1,
+      "y": -979.5,
+      "z": 30.7,
+      "heading": 90.0,
+      "job": "police",
+      "description": "Spawn-Punkt für Polizisten"
+    },
+    {
+      "id": "job_spawn_ems",
+      "name": "Sanitäter Spawn",
+      "x": 1839.6,
+      "y": 3672.9,
+      "z": 34.3,
+      "heading": 210.0,
+      "job": "ems",
+      "description": "Spawn-Punkt für Sanitäter"
+    },
+    {
+      "id": "job_spawn_mechanic",
+      "name": "Mechaniker Spawn",
+      "x": -347.0,
+      "y": -133.0,
+      "z": 39.0,
+      "heading": 250.0,
+      "job": "mechanic",
+      "description": "Spawn-Punkt für Mechaniker"
+    },
+    {
+      "id": "job_spawn_taxi",
+      "name": "Taxi Spawn",
+      "x": 909.0,
+      "y": -177.0,
+      "z": 74.0,
+      "heading": 240.0,
+      "job": "taxi",
+      "description": "Spawn-Punkt für Taxifahrer"
+    }
+  ]
+}

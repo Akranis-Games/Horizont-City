@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+    <info name="Horizont-City Roleplay" author="Horizont-City Team" version="1.0.0" />
+    
+    <!-- Server-Side Scripts -->
+    <script src="packages/gamemode/index.js" type="server" />
+    
+    <!-- Client-Side Scripts -->
+    <script src="client_packages/index.js" type="client" />
+    
+    <!-- UI Files (CEF) -->
+    <script src="client_packages/ui/index.html" type="client" />
+    
+    <!-- Configuration -->
+    <config src="conf.json" type="server" />
+    
+    <!-- Node.js and C# -->
+    <settings>
+        <setting name="nodejs" value="true" />
+        <setting name="oop" value="true" />
+    </settings>
+</meta>

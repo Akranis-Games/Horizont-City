@@ -1,0 +1,30 @@
+{
+  "name": "Horizont-City Roleplay",
+  "gamemode": "roleplay",
+  "language": "de",
+  "voice": {
+    "enabled": true,
+    "bitrate": 64000
+  },
+  "chat": {
+    "enabled": true,
+    "maxLength": 128
+  },
+  "database": {
+    "mariadb": {
+      "host": "localhost",
+      "port": 3306,
+      "user": "root",
+      "password": "root",
+      "database": "horizontcity"
+    },
+    "mysql": {
+      "host": "localhost",
+      "user": "root",
+      "password": "root",
+      "database": "horizontcity"
+    }
+  },
+  "apiPort": 3000,
+  "maxPlayers": 100
+}

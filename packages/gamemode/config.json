@@ -1,0 +1,69 @@
+{
+  "server": {
+    "name": "Horizont-City Roleplay",
+    "version": "1.0.0",
+    "maxPlayers": 100,
+    "port": 22005,
+    "language": "de"
+  },
+  "database": {
+    "mongodb": {
+      "connectionString": "mongodb://localhost:27017",
+      "databaseName": "horizont_city",
+      "useUnifiedTopology": true
+    }
+  },
+  "api": {
+    "port": 3000,
+    "cors": {
+      "origin": ["http://localhost:3000", "http://127.0.0.1:3000"],
+      "credentials": true
+    }
+  },
+  "economy": {
+    "startingMoney": 5000,
+    "currency": "€",
+    "taxRate": 0.1,
+    "inflationRate": 0.02
+  },
+  "factions": {
+    "maxMembers": 50,
+    "maxRanks": 10,
+    "territorySize": 1000
+  },
+  "jobs": {
+    "maxApplications": 5,
+    "salaryInterval": 300000,
+    "maxWorkHours": 8
+  },
+  "vehicles": {
+    "maxVehiclesPerPlayer": 3,
+    "fuelConsumption": 0.1,
+    "maintenanceCost": 100
+  },
+  "housing": {
+    "maxHousesPerPlayer": 1,
+    "rentInterval": 3600000,
+    "maxFurniture": 100
+  },
+  "phone": {
+    "maxContacts": 200,
+    "maxMessages": 1000,
+    "callDuration": 300000
+  },
+  "health": {
+    "maxHealth": 100,
+    "maxArmor": 100,
+    "hospitalCost": 500
+  },
+  "weather": {
+    "syncWithBerlin": true,
+    "updateInterval": 300000
+  },
+  "logging": {
+    "level": "info",
+    "file": "./logs/server.log",
+    "maxSize": "10MB",
+    "maxFiles": 5
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "horizont-city-roleplay",
+  "version": "1.0.0",
+  "description": "Ein umfassendes Roleplay-Server für RageMP",
+  "main": "packages/gamemode/index.js",
+  "scripts": {
+    "start": "node packages/gamemode/index.js",
+    "dev": "nodemon packages/gamemode/index.js",
+    "test": "jest",
+    "lint": "eslint packages/ client_packages/",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development"
+  },
+  "keywords": [
+    "ragemp",
+    "roleplay",
+    "gta5",
+    "server",
+    "gamemode"
+  ],
+  "author": "Horizont-City Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.3",
+    "helmet": "^7.1.0",
+    "joi": "^17.6.4",
+    "jsonwebtoken": "^9.0.2",
+    "mariadb": "^3.2.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "mysql2": "^3.6.5",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.7.8",
+    "rate-limiter-flexible": "^2.4.1",
+    "sharp": "^0.34.3",
+    "winston": "^3.8.2",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.28.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.3",
+    "mini-css-extract-plugin": "^2.7.2",
+    "nodemon": "^3.1.10",
+    "style-loader": "^3.3.2",
+    "terser-webpack-plugin": "^5.3.7",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/horizont-city/roleplay-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/horizont-city/roleplay-server/issues"
+  },
+  "homepage": "https://github.com/horizont-city/roleplay-server#readme"
+}
